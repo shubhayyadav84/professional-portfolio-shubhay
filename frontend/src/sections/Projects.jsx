@@ -2,6 +2,15 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "interviewiq.ai",
+    description:
+      "An AI-powered mock interview platform that simulates technical interviews. It generates dynamic, customized questions using the OpenRouter API, records and transcribes candidate answers in real-time using the Web Speech API, and stores evaluation history in a PostgreSQL database.",
+    image: "/projects/interviewiq.png",
+    tags: ["React", "Express / Node.js", "OpenRouter API", "PostgreSQL (Neon)", "Web Speech API"],
+    link: "https://ai-interviewer-okay1.vercel.app/",
+    github: "https://github.com/shubhayyadav84/AI-INTERVIEWER-okay",
+  },
+  {
     title: "PortfolioAI",
     description:
       "An intelligent personal portfolio platform showcasing projects, certifications, internships, and achievements through an interactive AI-powered assistant. Visitors can explore career milestones, receive personalized recommendations, discover technical skills, and interact with a future-predictor chatbot for an engaging user experience.",
