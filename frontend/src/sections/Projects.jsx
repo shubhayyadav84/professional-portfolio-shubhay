@@ -11,6 +11,15 @@ const projects = [
     github: "https://github.com/shubhayyadav84/AI-INTERVIEWER-okay",
   },
   {
+    title: "SmartWeather",
+    description:
+      "A real-time weather forecasting and monitoring dashboard. It fetches live weather updates and 5-day forecasts, allows user location-based queries, and manages search history and preferences via a secure database connection.",
+    image: "/projects/weatherorg.png",
+    tags: ["React", "Vite", "Node.js", "Express", "MongoDB"],
+    link: "https://weatherorg.vercel.app/",
+    github: "https://github.com/shubhayyadav84/weatherorg",
+  },
+  {
     title: "PortfolioAI",
     description:
       "An intelligent personal portfolio platform showcasing projects, certifications, internships, and achievements through an interactive AI-powered assistant. Visitors can explore career milestones, receive personalized recommendations, discover technical skills, and interact with a future-predictor chatbot for an engaging user experience.",
